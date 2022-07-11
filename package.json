@@ -1,0 +1,64 @@
+{
+   "name": "spinner",
+   "version": "1.0.0",
+   "description": "3d spinner class",
+   "author": "evgeni",
+   "license": "MIT",
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:kluev-evga/spinner.git"
+   },
+   "bugs": {
+      "url": "https://github.com/kluev-evga/spinner/issues"
+   },
+   "homepage": "https://kluev-evga.github.io/spinner",
+   "scripts": {
+      "predeploy": "gulp build",
+      "deploy": "gh-pages -d build"
+   },
+   "devDependencies": {
+      "@babel/core": "^7.13.10",
+      "babel-loader": "^8.2.2",
+      "browser-sync": "^2.26.14",
+      "del": "^6.0.0",
+      "gh-pages": "^3.2.3",
+      "gulp": "^4.0.2",
+      "gulp-autoprefixer": "^8.0.0",
+      "gulp-clean-css": "^4.3.0",
+      "gulp-file-include": "^2.3.0",
+      "gulp-htmlmin-next": "^6.0.1",
+      "gulp-imagemin": "^7.1.0",
+      "gulp-notify": "^4.0.0",
+      "gulp-plumber": "^1.2.1",
+      "gulp-rename": "^2.0.0",
+      "gulp-sass": "^5.1.0",
+      "gulp-sourcemaps": "^3.0.0",
+      "gulp-webp": "^4.0.1",
+      "sass": "^1.50.1",
+      "webpack": "^5.72.0",
+      "webpack-stream": "^7.0.0"
+   },
+   "browserslist": {
+      "production": [
+         ">0.2%",
+         "not dead",
+         "not op_mini all"
+      ],
+      "development": [
+         "last 1 chrome version",
+         "last 1 firefox version",
+         "last 1 safari version"
+      ]
+   },
+   "prettier": {
+      "tabWidth": 3,
+      "semi": false,
+      "singleQuote": true,
+      "quoteProps": "consistent",
+      "jsxSingleQuote": true,
+      "trailingComma": "es5",
+      "bracketSameLine": true,
+      "arrowParens": "avoid",
+      "singleAttributePerLine": false
+   }
+}
